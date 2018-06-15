@@ -22,5 +22,5 @@ jquery分页插件
 ```html
 <div id="pager"></div>
 ```
-![](http://www.baidu.com/img/bdlogo.gif)
+![](https://github.com/lucyonegit/pagebeen/blob/master/pre/demo.jpg)
 
