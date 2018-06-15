@@ -1,0 +1,66 @@
+﻿#pager ul.pages {
+display:block;
+border:none;
+text-transform:uppercase;
+font-size:10px;
+margin:10px 0 50px;
+padding:0;
+}
+#pager ul .pgNext{
+    margin: 0 5px 0 5px;
+    color: transparent;
+    text-indent:-9999px;
+}
+#pager ul.pages li {
+list-style:none;
+width: 30px;
+height: 30px;
+float:left;
+text-decoration:none;
+text-align: center;
+line-height: 30px;
+}
+
+#pager ul.pages .page-number:hover {
+font-size: 15px;
+}
+
+#pager ul.pages li.pgEmpty {
+    cursor: not-allowed;
+}
+
+#pager ul.pages li.pgCurrent {
+color:#000;
+font-weight:400;
+font-size: 18px;
+}
+
+.pages .pgNext:nth-child(1){
+    background: url("../assets/img/first.svg");
+}
+.pages .pgNext:nth-child(1):hover{
+    background: url("../assets/img/firsthover.svg");
+}
+.pages .pgNext:nth-child(2){
+    background: url("../assets/img/back.svg");
+}
+.pages .pgNext:nth-child(2):hover{
+    background: url("../assets/img/backhover.svg");
+}
+.pages .pgNext:nth-last-child(2){
+    background: url("../assets/img/next.svg");
+}
+.pages .pgNext:nth-last-child(2):hover{
+    background: url("../assets/img/nexthover.svg");
+}
+.pages .pgNext:nth-last-child(1){
+    background: url("../assets/img/finnal.svg");
+}
+.pages .pgNext:nth-last-child(1):hover{
+    background: url("../assets/img/finalhover.svg");
+}
+
+#pager{
+    width: 450px;
+    margin: 0 auto;
+}
